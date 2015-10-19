@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
@@ -6,6 +7,7 @@ using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace UnitTestProject {
     public static class MemoryScanner {
@@ -99,11 +101,29 @@ namespace UnitTestProject {
                         for (int index = 0; index < mem_basic_info.RegionSize; index++)
                             streamWriter.WriteLine("0x{0} : {1}", (mem_basic_info.BaseAddress + index).ToString("X"), (char)buffer[index]);
 
-                        foreach (var matchBuffer in buffer.ScanMemorySegmentFor2CharWideByteMatches(argTargetPatterns))
-                            yield return matchBuffer;
+                        var tasks = new List<Task<Collection<Byte[]>>>();
 
-                        foreach (var matchBuffer in buffer.ScanMemorySegmentFor1CharWideByteMatches(argTargetPatterns))
-                            yield return matchBuffer;
+                        tasks.Add(Task.Factory.StartNew<Collection<Byte[]>>(() => {
+                            var concurrentQueue = new ConcurrentQueue<Byte[]>();
+                            Parallel.ForEach(buffer.ScanMemorySegmentFor1CharWideByteMatches(argTargetPatterns).ToArray(), matchBuffer => {
+                                concurrentQueue.Enqueue(matchBuffer);
+                            });
+                            return concurrentQueue.ToCollection();
+                        }));
+
+                        tasks.Add(Task.Factory.StartNew<Collection<Byte[]>>(() => {
+                            var concurrentQueue = new ConcurrentQueue<Byte[]>();
+                            Parallel.ForEach(buffer.ScanMemorySegmentFor2CharWideByteMatches(argTargetPatterns).ToArray(), matchBuffer => {
+                                concurrentQueue.Enqueue(matchBuffer);
+                            });
+                            return concurrentQueue.ToCollection();
+                        }));
+
+                        Task.WaitAll(tasks.ToArray());
+
+                        foreach (var task in tasks)
+                            foreach (var resultBuffer in task.Result.ToArray())
+                                yield return resultBuffer;
                     }
 
                     proc_min_address_l += mem_basic_info.RegionSize;
@@ -155,6 +175,9 @@ namespace UnitTestProject {
         }
 
         public static IEnumerable<Byte[]> ReadByteArrays(this FileInfo argFieInfo) {
+            if (!argFieInfo.Exists)
+                throw new Exception("Missing File: " + argFieInfo.FullName);
+
             var delineator = System.Environment.NewLine;
             var headPointer = -1;
             var tailPointer = 3;
