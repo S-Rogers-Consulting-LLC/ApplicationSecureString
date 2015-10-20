@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
+using System.Runtime;
 using System.Text;
 
 class Program {
@@ -16,25 +16,28 @@ class Program {
         GC.Collect();
         GC.WaitForPendingFinalizers();
 
-        do {
-            headPointer = targetByteArray.MorrisPrattSearchFirst(delineatorByteArray, tailPointer);
-            if (headPointer >= 0) {
-                var length = headPointer - tailPointer;
-                var buffer = new Byte[length];
-                Array.Copy(targetByteArray, tailPointer, buffer, 0, length);
-                var characters = Encoding.UTF8.GetChars(buffer);
-                var unsecuredString = new String(characters);
-                Array.Clear(characters, 0, characters.Length);
-                Array.Clear(buffer, 0, buffer.Length);
+        var prviouseGCLatencyMode = GCSettings.LatencyMode;
+        try {
+            GCSettings.LatencyMode = GCLatencyMode.LowLatency;
+            do {
+                headPointer = targetByteArray.MorrisPrattSearchFirst(delineatorByteArray, tailPointer);
+                if (headPointer >= 0) {
+                    var length = headPointer - tailPointer;
+                    var buffer = new Byte[length];
+                    Array.Copy(targetByteArray, tailPointer, buffer, 0, length);
+                    var characters = Encoding.UTF8.GetChars(buffer);
+                    var unsecuredString = new String(characters);
+                    Array.Clear(characters, 0, characters.Length);
+                    Array.Clear(buffer, 0, buffer.Length);
+                    tailPointer = (headPointer + delineatorByteArray.Length);
+                }
+            } while (headPointer >= 0 && tailPointer < targetByteArray.Length);
 
-                //Console.WriteLine(unsecuredString);
-
-                tailPointer = (headPointer + delineatorByteArray.Length);
-            }
-        } while (headPointer >= 0 && tailPointer < targetByteArray.Length);
-
-        Array.Clear(targetByteArray, 0, targetByteArray.Length);
-        Array.Clear(delineatorByteArray, 0, delineatorByteArray.Length);
+            Array.Clear(targetByteArray, 0, targetByteArray.Length);
+            Array.Clear(delineatorByteArray, 0, delineatorByteArray.Length);
+        } finally {
+            GCSettings.LatencyMode = prviouseGCLatencyMode;
+        }
 
         Console.WriteLine("Enter any letter to exit");
         Console.ReadKey();
