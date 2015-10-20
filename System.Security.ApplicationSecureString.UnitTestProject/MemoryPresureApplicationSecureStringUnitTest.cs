@@ -13,11 +13,6 @@ namespace UnitTestProject {
     public class MemoryPresureApplicationSecureStringUnitTest {
         [TestMethod]
         public void MemoryPresureCompareTest() {
-            Debug.WriteLine(@"Start ->======================================================================================");
-            foreach (var userString in UserStrings.GetUserStrings(Assembly.GetExecutingAssembly()))
-                Debug.WriteLine("IsInterned: " + (null != String.IsInterned(userString)).ToString() + @"', UserStrings: '" + userString + @"'");
-            Debug.WriteLine(@"Start ->======================================================================================");
-
             Parallel.ForEach(Enumerable.Range(0, 25000).ToArray(), count => {
                 var randomPhrase = Generator.MakeMaxLengthRandomString(50);
                 using (var testPhraseOne = (ApplicationSecureString)randomPhrase)
@@ -27,20 +22,10 @@ namespace UnitTestProject {
                     testPhraseOne.CreateUnsecuredString().Should().Be(testPhraseTwo.CreateUnsecuredString());
                 }
             });
-
-            Debug.WriteLine(@"Stop ->======================================================================================");
-            foreach (var userString in UserStrings.GetUserStrings(Assembly.GetExecutingAssembly()))
-                Debug.WriteLine("IsInterned: " + (null != String.IsInterned(userString)).ToString() + @"', UserStrings: '" + userString + @"'");
-            Debug.WriteLine(@"Stop ->======================================================================================");
         }
 
         [TestMethod]
         public void MemoryPresureLight0To5000CompareTest() {
-            Debug.WriteLine(@"Start ->======================================================================================");
-            foreach (var userString in UserStrings.GetUserStrings(Assembly.GetExecutingAssembly()))
-                Debug.WriteLine("IsInterned: " + (null != String.IsInterned(userString)).ToString() + @"', UserStrings: '" + userString + @"'");
-            Debug.WriteLine(@"Start ->======================================================================================");
-
             var concurrentTupleQueue = new ConcurrentQueue<Tuple<String, ApplicationSecureString, ApplicationSecureString>>();
 
             Parallel.ForEach(Enumerable.Range(0, 5000).ToArray(), count => {
@@ -63,20 +48,10 @@ namespace UnitTestProject {
                     tuple.Item3.Dispose();
                 });
             }
-
-            Debug.WriteLine(@"Stop ->======================================================================================");
-            foreach (var userString in UserStrings.GetUserStrings(Assembly.GetExecutingAssembly()))
-                Debug.WriteLine("IsInterned: " + (null != String.IsInterned(userString)).ToString() + @"', UserStrings: '" + userString + @"'");
-            Debug.WriteLine(@"Stop ->======================================================================================");
         }
 
         [TestMethod]
         public void MemoryPresureMedium0To25000CompareTest() {
-            Debug.WriteLine(@"Start ->======================================================================================");
-            foreach (var userString in UserStrings.GetUserStrings(Assembly.GetExecutingAssembly()))
-                Debug.WriteLine("IsInterned: " + (null != String.IsInterned(userString)).ToString() + @"', UserStrings: '" + userString + @"'");
-            Debug.WriteLine(@"Start ->======================================================================================");
-
             var concurrentTupleQueue = new ConcurrentQueue<Tuple<String, ApplicationSecureString, ApplicationSecureString>>();
 
             Parallel.ForEach(Enumerable.Range(0, 5000).ToArray(), count => {
@@ -99,20 +74,10 @@ namespace UnitTestProject {
                     tuple.Item3.Dispose();
                 });
             }
-
-            Debug.WriteLine(@"Stop ->======================================================================================");
-            foreach (var userString in UserStrings.GetUserStrings(Assembly.GetExecutingAssembly()))
-                Debug.WriteLine("IsInterned: " + (null != String.IsInterned(userString)).ToString() + @"', UserStrings: '" + userString + @"'");
-            Debug.WriteLine(@"Stop ->======================================================================================");  Debug.WriteLine(@"Stop ->======================================================================================");
         }
 
         [TestMethod]
         public void MemoryPresureHeavy0To50000CompareTest() {
-            Debug.WriteLine(@"Start ->======================================================================================");
-            foreach (var userString in UserStrings.GetUserStrings(Assembly.GetExecutingAssembly()))
-                Debug.WriteLine("IsInterned: " + (null != String.IsInterned(userString)).ToString() + @"', UserStrings: '" + userString + @"'");
-            Debug.WriteLine(@"Start ->======================================================================================");
-
             var concurrentTupleQueue = new ConcurrentQueue<Tuple<String, ApplicationSecureString, ApplicationSecureString>>();
 
             Parallel.ForEach(Enumerable.Range(0, 50000).ToArray(), count => {
@@ -135,11 +100,6 @@ namespace UnitTestProject {
                     tuple.Item3.Dispose();
                 });
             }
-
-            Debug.WriteLine(@"Stop ->======================================================================================");
-            foreach (var userString in UserStrings.GetUserStrings(Assembly.GetExecutingAssembly()))
-                Debug.WriteLine("IsInterned: " + (null != String.IsInterned(userString)).ToString() + @"', UserStrings: '" + userString + @"'");
-            Debug.WriteLine(@"Stop ->======================================================================================");
         }
     }
 }
