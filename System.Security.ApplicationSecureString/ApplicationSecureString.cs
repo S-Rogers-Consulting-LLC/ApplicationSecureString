@@ -207,7 +207,7 @@ namespace System.Security {
         /// </summary>
         /// <param name="argApplicationSecureString">ApplicationSecureString</param>
         [DebuggerStepThrough]
-        public static implicit operator Char[](ApplicationSecureString argApplicationSecureString) { return argApplicationSecureString.CreateUnsecuredCharacters(); }
+        public static implicit operator Char[] (ApplicationSecureString argApplicationSecureString) { return argApplicationSecureString.CreateUnsecuredCharacters(); }
         #endregion
 
         #region Public Override Operators
@@ -304,7 +304,8 @@ namespace System.Security {
             #region Constructors
             [DebuggerStepThrough]
             static Wire() {
-                var base64EncodedBytes = (FileName() + FileVersion()).CreateBase64EncodedString().CreateBytes();
+                var uniqueKey = Assembly.GetExecutingAssembly().GetType().GUID.ToString();
+                var base64EncodedBytes = uniqueKey.CreateBase64EncodedString().CreateBytes();
                 try {
                     var computedHash = SHA256.Create().ComputeHash(base64EncodedBytes, 0, 32);
                     try {
@@ -316,7 +317,7 @@ namespace System.Security {
                     base64EncodedBytes.ClearBytes();
                 }
 
-                var characters = (FileName() + FileVersion()).CreateCharacters();
+                var characters = uniqueKey.CreateCharacters();
                 try {
                     var wireEncryptedCharacters = Encrypt(characters);
                     try {
@@ -371,14 +372,6 @@ namespace System.Security {
                     }
                 }
             }
-            #endregion
-
-            #region Private Methods       
-            [DebuggerStepThrough]
-            private static String FileVersion() { return FileVersionInfo.GetVersionInfo(Assembly.GetExecutingAssembly().Location).FileVersion.Trim().ToUpper(); }
-
-            [DebuggerStepThrough]
-            private static String FileName() { return FileVersionInfo.GetVersionInfo(Assembly.GetExecutingAssembly().Location).OriginalFilename.Trim().ToUpper(); }
             #endregion
         }
         #endregion
@@ -653,7 +646,7 @@ namespace System.Security.Library.Extentions {
         public static String CreateUnencryptedString(this SecureString argSecureString) {
             var intPtr = Marshal.SecureStringToBSTR(argSecureString);
             try {
-                var result =  Marshal.PtrToStringBSTR(intPtr);
+                var result = Marshal.PtrToStringBSTR(intPtr);
                 return result;
             } finally {
                 Marshal.ZeroFreeBSTR(intPtr);
@@ -710,7 +703,7 @@ namespace System.Security.Library.Extentions {
         /// <param name="argBytes">Byte[] to convert.</param>
         /// <returns>Base 64 Encoded Char[].</returns>
         [DebuggerStepThrough]
-        public static Char[] CreateBase64EncodedCharacters(this byte[] argBytes) {        
+        public static Char[] CreateBase64EncodedCharacters(this byte[] argBytes) {
             var tempCharacters = new char[argBytes.Length + argBytes.Length];
             try {
                 var charArrayLength = Convert.ToBase64CharArray(argBytes, 0, argBytes.Length, tempCharacters, 0, Base64FormattingOptions.None);
