@@ -3,3 +3,7 @@ The 'ApplicationSecureString' is a direct replacement for the C# 'System.String'
 
 # Why ApplicationSecureString
 Though data encryption is widely used to secure data, memory scraping finds weak areas from which it can take data. For example, some memory-scraping malware steals encrypted data from applications through which the data passed unencrypted.
+
+```C#
+
+```
