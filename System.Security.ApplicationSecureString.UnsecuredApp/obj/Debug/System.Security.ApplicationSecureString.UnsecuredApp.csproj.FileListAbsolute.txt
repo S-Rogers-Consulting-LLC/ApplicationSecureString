@@ -1,7 +1,0 @@
-C:\Users\Stewart Rogers\Source\Repos\ApplicationSecureString\System.Security.ApplicationSecureString.UnsecuredApp\bin\Debug\Program.TextFile.Unsecured.txt
-C:\Users\Stewart Rogers\Source\Repos\ApplicationSecureString\System.Security.ApplicationSecureString.UnsecuredApp\bin\Debug\UnsecuredApp.exe.config
-C:\Users\Stewart Rogers\Source\Repos\ApplicationSecureString\System.Security.ApplicationSecureString.UnsecuredApp\bin\Debug\UnsecuredApp.exe
-C:\Users\Stewart Rogers\Source\Repos\ApplicationSecureString\System.Security.ApplicationSecureString.UnsecuredApp\bin\Debug\UnsecuredApp.pdb
-C:\Users\Stewart Rogers\Source\Repos\ApplicationSecureString\System.Security.ApplicationSecureString.UnsecuredApp\obj\Debug\System.Security.ApplicationSecureString.UnsecuredApp.csprojResolveAssemblyReference.cache
-C:\Users\Stewart Rogers\Source\Repos\ApplicationSecureString\System.Security.ApplicationSecureString.UnsecuredApp\obj\Debug\UnsecuredApp.exe
-C:\Users\Stewart Rogers\Source\Repos\ApplicationSecureString\System.Security.ApplicationSecureString.UnsecuredApp\obj\Debug\UnsecuredApp.pdb
