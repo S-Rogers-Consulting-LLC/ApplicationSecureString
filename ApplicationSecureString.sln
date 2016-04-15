@@ -1,174 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "packages", "packages", "{AA6FF0F8-ACFC-4D03-9B7D-5CC3A4BBBACB}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FluentAssertions.4.0.0", "FluentAssertions.4.0.0", "{7E92D79D-7367-456E-B4BE-13CAFF86C05F}"
-	ProjectSection(SolutionItems) = preProject
-		packages\FluentAssertions.4.0.0\FluentAssertions.4.0.0.nupkg = packages\FluentAssertions.4.0.0\FluentAssertions.4.0.0.nupkg
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{BF061237-4874-4C73-A291-D6EA0FE9307E}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dotnet", "dotnet", "{662911E8-9A63-463C-9ED4-9FA4C7359EB9}"
-	ProjectSection(SolutionItems) = preProject
-		packages\FluentAssertions.4.0.0\lib\dotnet\FluentAssertions.Core.dll = packages\FluentAssertions.4.0.0\lib\dotnet\FluentAssertions.Core.dll
-		packages\FluentAssertions.4.0.0\lib\dotnet\FluentAssertions.Core.pdb = packages\FluentAssertions.4.0.0\lib\dotnet\FluentAssertions.Core.pdb
-		packages\FluentAssertions.4.0.0\lib\dotnet\FluentAssertions.dll = packages\FluentAssertions.4.0.0\lib\dotnet\FluentAssertions.dll
-		packages\FluentAssertions.4.0.0\lib\dotnet\FluentAssertions.pdb = packages\FluentAssertions.4.0.0\lib\dotnet\FluentAssertions.pdb
-		packages\FluentAssertions.4.0.0\lib\dotnet\FluentAssertions.xml = packages\FluentAssertions.4.0.0\lib\dotnet\FluentAssertions.xml
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "monoandroid", "monoandroid", "{C977FBD6-D0D4-4AC2-BAD6-B81EB5B5C957}"
-	ProjectSection(SolutionItems) = preProject
-		packages\FluentAssertions.4.0.0\lib\monoandroid\FluentAssertions.Core.dll = packages\FluentAssertions.4.0.0\lib\monoandroid\FluentAssertions.Core.dll
-		packages\FluentAssertions.4.0.0\lib\monoandroid\FluentAssertions.Core.pdb = packages\FluentAssertions.4.0.0\lib\monoandroid\FluentAssertions.Core.pdb
-		packages\FluentAssertions.4.0.0\lib\monoandroid\FluentAssertions.Core.xml = packages\FluentAssertions.4.0.0\lib\monoandroid\FluentAssertions.Core.xml
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "monotouch", "monotouch", "{C19CB244-8F7C-4448-8F45-1E0FDE84173E}"
-	ProjectSection(SolutionItems) = preProject
-		packages\FluentAssertions.4.0.0\lib\monotouch\FluentAssertions.Core.dll = packages\FluentAssertions.4.0.0\lib\monotouch\FluentAssertions.Core.dll
-		packages\FluentAssertions.4.0.0\lib\monotouch\FluentAssertions.Core.pdb = packages\FluentAssertions.4.0.0\lib\monotouch\FluentAssertions.Core.pdb
-		packages\FluentAssertions.4.0.0\lib\monotouch\FluentAssertions.Core.xml = packages\FluentAssertions.4.0.0\lib\monotouch\FluentAssertions.Core.xml
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "net40", "net40", "{E98AB215-E2C4-421B-9911-A64CA240A1B6}"
-	ProjectSection(SolutionItems) = preProject
-		packages\FluentAssertions.4.0.0\lib\net40\FluentAssertions.Core.dll = packages\FluentAssertions.4.0.0\lib\net40\FluentAssertions.Core.dll
-		packages\FluentAssertions.4.0.0\lib\net40\FluentAssertions.Core.pdb = packages\FluentAssertions.4.0.0\lib\net40\FluentAssertions.Core.pdb
-		packages\FluentAssertions.4.0.0\lib\net40\FluentAssertions.Core.xml = packages\FluentAssertions.4.0.0\lib\net40\FluentAssertions.Core.xml
-		packages\FluentAssertions.4.0.0\lib\net40\FluentAssertions.dll = packages\FluentAssertions.4.0.0\lib\net40\FluentAssertions.dll
-		packages\FluentAssertions.4.0.0\lib\net40\FluentAssertions.pdb = packages\FluentAssertions.4.0.0\lib\net40\FluentAssertions.pdb
-		packages\FluentAssertions.4.0.0\lib\net40\FluentAssertions.xml = packages\FluentAssertions.4.0.0\lib\net40\FluentAssertions.xml
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "net45", "net45", "{12405F55-12C7-45FA-90E2-53F62CC56BD6}"
-	ProjectSection(SolutionItems) = preProject
-		packages\FluentAssertions.4.0.0\lib\net45\FluentAssertions.Core.dll = packages\FluentAssertions.4.0.0\lib\net45\FluentAssertions.Core.dll
-		packages\FluentAssertions.4.0.0\lib\net45\FluentAssertions.Core.pdb = packages\FluentAssertions.4.0.0\lib\net45\FluentAssertions.Core.pdb
-		packages\FluentAssertions.4.0.0\lib\net45\FluentAssertions.Core.xml = packages\FluentAssertions.4.0.0\lib\net45\FluentAssertions.Core.xml
-		packages\FluentAssertions.4.0.0\lib\net45\FluentAssertions.dll = packages\FluentAssertions.4.0.0\lib\net45\FluentAssertions.dll
-		packages\FluentAssertions.4.0.0\lib\net45\FluentAssertions.pdb = packages\FluentAssertions.4.0.0\lib\net45\FluentAssertions.pdb
-		packages\FluentAssertions.4.0.0\lib\net45\FluentAssertions.xml = packages\FluentAssertions.4.0.0\lib\net45\FluentAssertions.xml
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "portable-monotouch+monoandroid+xamarin.ios", "portable-monotouch+monoandroid+xamarin.ios", "{A73B2D78-488E-4261-AC7D-470A9F3F689A}"
-	ProjectSection(SolutionItems) = preProject
-		packages\FluentAssertions.4.0.0\lib\portable-monotouch+monoandroid+xamarin.ios\FluentAssertions.Core.dll = packages\FluentAssertions.4.0.0\lib\portable-monotouch+monoandroid+xamarin.ios\FluentAssertions.Core.dll
-		packages\FluentAssertions.4.0.0\lib\portable-monotouch+monoandroid+xamarin.ios\FluentAssertions.Core.pdb = packages\FluentAssertions.4.0.0\lib\portable-monotouch+monoandroid+xamarin.ios\FluentAssertions.Core.pdb
-		packages\FluentAssertions.4.0.0\lib\portable-monotouch+monoandroid+xamarin.ios\FluentAssertions.Core.xml = packages\FluentAssertions.4.0.0\lib\portable-monotouch+monoandroid+xamarin.ios\FluentAssertions.Core.xml
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "portable-net40+sl5+win8+wp8+wpa81", "portable-net40+sl5+win8+wp8+wpa81", "{F4C56392-E23D-41E1-95DA-FE2ECDA0D18E}"
-	ProjectSection(SolutionItems) = preProject
-		packages\FluentAssertions.4.0.0\lib\portable-net40+sl5+win8+wp8+wpa81\FluentAssertions.Core.dll = packages\FluentAssertions.4.0.0\lib\portable-net40+sl5+win8+wp8+wpa81\FluentAssertions.Core.dll
-		packages\FluentAssertions.4.0.0\lib\portable-net40+sl5+win8+wp8+wpa81\FluentAssertions.Core.pdb = packages\FluentAssertions.4.0.0\lib\portable-net40+sl5+win8+wp8+wpa81\FluentAssertions.Core.pdb
-		packages\FluentAssertions.4.0.0\lib\portable-net40+sl5+win8+wp8+wpa81\FluentAssertions.Core.xml = packages\FluentAssertions.4.0.0\lib\portable-net40+sl5+win8+wp8+wpa81\FluentAssertions.Core.xml
-		packages\FluentAssertions.4.0.0\lib\portable-net40+sl5+win8+wp8+wpa81\FluentAssertions.dll = packages\FluentAssertions.4.0.0\lib\portable-net40+sl5+win8+wp8+wpa81\FluentAssertions.dll
-		packages\FluentAssertions.4.0.0\lib\portable-net40+sl5+win8+wp8+wpa81\FluentAssertions.pdb = packages\FluentAssertions.4.0.0\lib\portable-net40+sl5+win8+wp8+wpa81\FluentAssertions.pdb
-		packages\FluentAssertions.4.0.0\lib\portable-net40+sl5+win8+wp8+wpa81\FluentAssertions.XML = packages\FluentAssertions.4.0.0\lib\portable-net40+sl5+win8+wp8+wpa81\FluentAssertions.XML
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "portable-win81+wpa81", "portable-win81+wpa81", "{F8B6FD0D-DE83-4822-B715-D64733B62675}"
-	ProjectSection(SolutionItems) = preProject
-		packages\FluentAssertions.4.0.0\lib\portable-win81+wpa81\FluentAssertions.Core.dll = packages\FluentAssertions.4.0.0\lib\portable-win81+wpa81\FluentAssertions.Core.dll
-		packages\FluentAssertions.4.0.0\lib\portable-win81+wpa81\FluentAssertions.Core.pdb = packages\FluentAssertions.4.0.0\lib\portable-win81+wpa81\FluentAssertions.Core.pdb
-		packages\FluentAssertions.4.0.0\lib\portable-win81+wpa81\FluentAssertions.Core.xml = packages\FluentAssertions.4.0.0\lib\portable-win81+wpa81\FluentAssertions.Core.xml
-		packages\FluentAssertions.4.0.0\lib\portable-win81+wpa81\FluentAssertions.dll = packages\FluentAssertions.4.0.0\lib\portable-win81+wpa81\FluentAssertions.dll
-		packages\FluentAssertions.4.0.0\lib\portable-win81+wpa81\FluentAssertions.pdb = packages\FluentAssertions.4.0.0\lib\portable-win81+wpa81\FluentAssertions.pdb
-		packages\FluentAssertions.4.0.0\lib\portable-win81+wpa81\FluentAssertions.pri = packages\FluentAssertions.4.0.0\lib\portable-win81+wpa81\FluentAssertions.pri
-		packages\FluentAssertions.4.0.0\lib\portable-win81+wpa81\FluentAssertions.xml = packages\FluentAssertions.4.0.0\lib\portable-win81+wpa81\FluentAssertions.xml
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "wp8", "wp8", "{6827E60F-8BDE-4E7C-9ECC-F94F957BD7BB}"
-	ProjectSection(SolutionItems) = preProject
-		packages\FluentAssertions.4.0.0\lib\wp8\FluentAssertions.Core.dll = packages\FluentAssertions.4.0.0\lib\wp8\FluentAssertions.Core.dll
-		packages\FluentAssertions.4.0.0\lib\wp8\FluentAssertions.Core.pdb = packages\FluentAssertions.4.0.0\lib\wp8\FluentAssertions.Core.pdb
-		packages\FluentAssertions.4.0.0\lib\wp8\FluentAssertions.Core.xml = packages\FluentAssertions.4.0.0\lib\wp8\FluentAssertions.Core.xml
-		packages\FluentAssertions.4.0.0\lib\wp8\FluentAssertions.dll = packages\FluentAssertions.4.0.0\lib\wp8\FluentAssertions.dll
-		packages\FluentAssertions.4.0.0\lib\wp8\FluentAssertions.pdb = packages\FluentAssertions.4.0.0\lib\wp8\FluentAssertions.pdb
-		packages\FluentAssertions.4.0.0\lib\wp8\FluentAssertions.xml = packages\FluentAssertions.4.0.0\lib\wp8\FluentAssertions.xml
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sl5", "sl5", "{8D238BDA-9BD4-4957-B572-EFC29F9DD28E}"
-	ProjectSection(SolutionItems) = preProject
-		packages\FluentAssertions.4.0.0\lib\sl5\FluentAssertions.Core.dll = packages\FluentAssertions.4.0.0\lib\sl5\FluentAssertions.Core.dll
-		packages\FluentAssertions.4.0.0\lib\sl5\FluentAssertions.Core.pdb = packages\FluentAssertions.4.0.0\lib\sl5\FluentAssertions.Core.pdb
-		packages\FluentAssertions.4.0.0\lib\sl5\FluentAssertions.Core.xml = packages\FluentAssertions.4.0.0\lib\sl5\FluentAssertions.Core.xml
-		packages\FluentAssertions.4.0.0\lib\sl5\FluentAssertions.dll = packages\FluentAssertions.4.0.0\lib\sl5\FluentAssertions.dll
-		packages\FluentAssertions.4.0.0\lib\sl5\FluentAssertions.pdb = packages\FluentAssertions.4.0.0\lib\sl5\FluentAssertions.pdb
-		packages\FluentAssertions.4.0.0\lib\sl5\FluentAssertions.xml = packages\FluentAssertions.4.0.0\lib\sl5\FluentAssertions.xml
-		packages\FluentAssertions.4.0.0\lib\sl5\Microsoft.CSharp.dll = packages\FluentAssertions.4.0.0\lib\sl5\Microsoft.CSharp.dll
-		packages\FluentAssertions.4.0.0\lib\sl5\Microsoft.CSharp.xml = packages\FluentAssertions.4.0.0\lib\sl5\Microsoft.CSharp.xml
-		packages\FluentAssertions.4.0.0\lib\sl5\Microsoft.VisualStudio.QualityTools.UnitTesting.Silverlight.dll = packages\FluentAssertions.4.0.0\lib\sl5\Microsoft.VisualStudio.QualityTools.UnitTesting.Silverlight.dll
-		packages\FluentAssertions.4.0.0\lib\sl5\Microsoft.VisualStudio.QualityTools.UnitTesting.Silverlight.xml = packages\FluentAssertions.4.0.0\lib\sl5\Microsoft.VisualStudio.QualityTools.UnitTesting.Silverlight.xml
-		packages\FluentAssertions.4.0.0\lib\sl5\System.Xml.Linq.dll = packages\FluentAssertions.4.0.0\lib\sl5\System.Xml.Linq.dll
-		packages\FluentAssertions.4.0.0\lib\sl5\System.Xml.Linq.xml = packages\FluentAssertions.4.0.0\lib\sl5\System.Xml.Linq.xml
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "xamarin.ios", "xamarin.ios", "{D2128B7C-933F-4DF4-A046-D54AF9E8217A}"
-	ProjectSection(SolutionItems) = preProject
-		packages\FluentAssertions.4.0.0\lib\xamarin.ios\FluentAssertions.Core.dll = packages\FluentAssertions.4.0.0\lib\xamarin.ios\FluentAssertions.Core.dll
-		packages\FluentAssertions.4.0.0\lib\xamarin.ios\FluentAssertions.Core.pdb = packages\FluentAssertions.4.0.0\lib\xamarin.ios\FluentAssertions.Core.pdb
-		packages\FluentAssertions.4.0.0\lib\xamarin.ios\FluentAssertions.Core.xml = packages\FluentAssertions.4.0.0\lib\xamarin.ios\FluentAssertions.Core.xml
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "de", "de", "{65777287-C3A9-43E5-9606-49C95B2A0F4A}"
-	ProjectSection(SolutionItems) = preProject
-		packages\FluentAssertions.4.0.0\lib\sl5\de\Microsoft.CSharp.resources.dll = packages\FluentAssertions.4.0.0\lib\sl5\de\Microsoft.CSharp.resources.dll
-		packages\FluentAssertions.4.0.0\lib\sl5\de\System.Xml.Linq.resources.dll = packages\FluentAssertions.4.0.0\lib\sl5\de\System.Xml.Linq.resources.dll
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "es", "es", "{41E6D92E-503B-47B1-A33A-AEE90A8C46F4}"
-	ProjectSection(SolutionItems) = preProject
-		packages\FluentAssertions.4.0.0\lib\sl5\es\Microsoft.CSharp.resources.dll = packages\FluentAssertions.4.0.0\lib\sl5\es\Microsoft.CSharp.resources.dll
-		packages\FluentAssertions.4.0.0\lib\sl5\es\System.Xml.Linq.resources.dll = packages\FluentAssertions.4.0.0\lib\sl5\es\System.Xml.Linq.resources.dll
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fr", "fr", "{EA259966-268B-491B-96B6-33F75874099B}"
-	ProjectSection(SolutionItems) = preProject
-		packages\FluentAssertions.4.0.0\lib\sl5\fr\Microsoft.CSharp.resources.dll = packages\FluentAssertions.4.0.0\lib\sl5\fr\Microsoft.CSharp.resources.dll
-		packages\FluentAssertions.4.0.0\lib\sl5\fr\System.Xml.Linq.resources.dll = packages\FluentAssertions.4.0.0\lib\sl5\fr\System.Xml.Linq.resources.dll
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "it", "it", "{6F86C6F1-1EBF-42C6-8EEF-66822F615CFD}"
-	ProjectSection(SolutionItems) = preProject
-		packages\FluentAssertions.4.0.0\lib\sl5\it\Microsoft.CSharp.resources.dll = packages\FluentAssertions.4.0.0\lib\sl5\it\Microsoft.CSharp.resources.dll
-		packages\FluentAssertions.4.0.0\lib\sl5\it\System.Xml.Linq.resources.dll = packages\FluentAssertions.4.0.0\lib\sl5\it\System.Xml.Linq.resources.dll
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ja", "ja", "{C8565E8B-042B-4093-A1A4-724086C66A21}"
-	ProjectSection(SolutionItems) = preProject
-		packages\FluentAssertions.4.0.0\lib\sl5\ja\Microsoft.CSharp.resources.dll = packages\FluentAssertions.4.0.0\lib\sl5\ja\Microsoft.CSharp.resources.dll
-		packages\FluentAssertions.4.0.0\lib\sl5\ja\System.Xml.Linq.resources.dll = packages\FluentAssertions.4.0.0\lib\sl5\ja\System.Xml.Linq.resources.dll
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ko", "ko", "{ECAE168D-D40C-4914-B20B-D3F892E67FF1}"
-	ProjectSection(SolutionItems) = preProject
-		packages\FluentAssertions.4.0.0\lib\sl5\ko\Microsoft.CSharp.resources.dll = packages\FluentAssertions.4.0.0\lib\sl5\ko\Microsoft.CSharp.resources.dll
-		packages\FluentAssertions.4.0.0\lib\sl5\ko\System.Xml.Linq.resources.dll = packages\FluentAssertions.4.0.0\lib\sl5\ko\System.Xml.Linq.resources.dll
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ru", "ru", "{21284510-DC2E-49C8-B04F-366524C4F0F2}"
-	ProjectSection(SolutionItems) = preProject
-		packages\FluentAssertions.4.0.0\lib\sl5\ru\Microsoft.CSharp.resources.dll = packages\FluentAssertions.4.0.0\lib\sl5\ru\Microsoft.CSharp.resources.dll
-		packages\FluentAssertions.4.0.0\lib\sl5\ru\System.Xml.Linq.resources.dll = packages\FluentAssertions.4.0.0\lib\sl5\ru\System.Xml.Linq.resources.dll
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "zh-Hans", "zh-Hans", "{B54352B7-A80D-437D-95D9-1DE50E27AB7B}"
-	ProjectSection(SolutionItems) = preProject
-		packages\FluentAssertions.4.0.0\lib\sl5\zh-Hans\Microsoft.CSharp.resources.dll = packages\FluentAssertions.4.0.0\lib\sl5\zh-Hans\Microsoft.CSharp.resources.dll
-		packages\FluentAssertions.4.0.0\lib\sl5\zh-Hans\System.Xml.Linq.resources.dll = packages\FluentAssertions.4.0.0\lib\sl5\zh-Hans\System.Xml.Linq.resources.dll
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "zh-Hant", "zh-Hant", "{8CA21288-5135-4911-B2E8-A2419E841DCF}"
-	ProjectSection(SolutionItems) = preProject
-		packages\FluentAssertions.4.0.0\lib\sl5\zh-Hant\Microsoft.CSharp.resources.dll = packages\FluentAssertions.4.0.0\lib\sl5\zh-Hant\Microsoft.CSharp.resources.dll
-		packages\FluentAssertions.4.0.0\lib\sl5\zh-Hant\System.Xml.Linq.resources.dll = packages\FluentAssertions.4.0.0\lib\sl5\zh-Hant\System.Xml.Linq.resources.dll
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.Security.ApplicationSecureString", "System.Security.ApplicationSecureString\System.Security.ApplicationSecureString.csproj", "{7D35F9B2-6F99-4559-8E01-7A867B5E6656}"
 EndProject
@@ -277,6 +112,193 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.Security.Application
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.Security.ApplicationSecureString.SecuredApp", "System.Security.ApplicationSecureString.SecuredApp\System.Security.ApplicationSecureString.SecuredApp.csproj", "{079E006B-EA15-4394-8A5B-D4654C6772A3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FluentAssertions.4.3.2", "FluentAssertions.4.3.2", "{D0CDAFAD-D3D4-46D8-B511-5B00C1055208}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{80F6E91D-426A-4726-9D6D-DAFA0D94AAC0}"
+	ProjectSection(SolutionItems) = preProject
+		packages\FluentAssertions.4.3.2\FluentAssertions.4.3.2.nupkg = packages\FluentAssertions.4.3.2\FluentAssertions.4.3.2.nupkg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dotnet", "dotnet", "{A4C4C179-0808-41EF-B34F-06421790D014}"
+	ProjectSection(SolutionItems) = preProject
+		packages\FluentAssertions.4.3.2\lib\dotnet\FluentAssertions.Core.dll = packages\FluentAssertions.4.3.2\lib\dotnet\FluentAssertions.Core.dll
+		packages\FluentAssertions.4.3.2\lib\dotnet\FluentAssertions.Core.pdb = packages\FluentAssertions.4.3.2\lib\dotnet\FluentAssertions.Core.pdb
+		packages\FluentAssertions.4.3.2\lib\dotnet\FluentAssertions.dll = packages\FluentAssertions.4.3.2\lib\dotnet\FluentAssertions.dll
+		packages\FluentAssertions.4.3.2\lib\dotnet\FluentAssertions.pdb = packages\FluentAssertions.4.3.2\lib\dotnet\FluentAssertions.pdb
+		packages\FluentAssertions.4.3.2\lib\dotnet\FluentAssertions.xml = packages\FluentAssertions.4.3.2\lib\dotnet\FluentAssertions.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "monoandroid", "monoandroid", "{C1354BA2-AC6E-467F-A8AF-65D2E0CB1555}"
+	ProjectSection(SolutionItems) = preProject
+		packages\FluentAssertions.4.3.2\lib\monoandroid\FluentAssertions.Core.dll = packages\FluentAssertions.4.3.2\lib\monoandroid\FluentAssertions.Core.dll
+		packages\FluentAssertions.4.3.2\lib\monoandroid\FluentAssertions.Core.pdb = packages\FluentAssertions.4.3.2\lib\monoandroid\FluentAssertions.Core.pdb
+		packages\FluentAssertions.4.3.2\lib\monoandroid\FluentAssertions.Core.xml = packages\FluentAssertions.4.3.2\lib\monoandroid\FluentAssertions.Core.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "monotouch", "monotouch", "{049C6F00-E5D3-470D-8FB3-480B696FED53}"
+	ProjectSection(SolutionItems) = preProject
+		packages\FluentAssertions.4.3.2\lib\monotouch\FluentAssertions.Core.dll = packages\FluentAssertions.4.3.2\lib\monotouch\FluentAssertions.Core.dll
+		packages\FluentAssertions.4.3.2\lib\monotouch\FluentAssertions.Core.pdb = packages\FluentAssertions.4.3.2\lib\monotouch\FluentAssertions.Core.pdb
+		packages\FluentAssertions.4.3.2\lib\monotouch\FluentAssertions.Core.xml = packages\FluentAssertions.4.3.2\lib\monotouch\FluentAssertions.Core.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "net40", "net40", "{B64DE5D3-1453-4953-BF55-3A1435C3F20E}"
+	ProjectSection(SolutionItems) = preProject
+		packages\FluentAssertions.4.3.2\lib\net40\FluentAssertions.Core.dll = packages\FluentAssertions.4.3.2\lib\net40\FluentAssertions.Core.dll
+		packages\FluentAssertions.4.3.2\lib\net40\FluentAssertions.Core.pdb = packages\FluentAssertions.4.3.2\lib\net40\FluentAssertions.Core.pdb
+		packages\FluentAssertions.4.3.2\lib\net40\FluentAssertions.Core.xml = packages\FluentAssertions.4.3.2\lib\net40\FluentAssertions.Core.xml
+		packages\FluentAssertions.4.3.2\lib\net40\FluentAssertions.dll = packages\FluentAssertions.4.3.2\lib\net40\FluentAssertions.dll
+		packages\FluentAssertions.4.3.2\lib\net40\FluentAssertions.pdb = packages\FluentAssertions.4.3.2\lib\net40\FluentAssertions.pdb
+		packages\FluentAssertions.4.3.2\lib\net40\FluentAssertions.xml = packages\FluentAssertions.4.3.2\lib\net40\FluentAssertions.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "net45", "net45", "{E91AD011-CD74-4C12-B3CB-38DE8C69229E}"
+	ProjectSection(SolutionItems) = preProject
+		packages\FluentAssertions.4.3.2\lib\net45\FluentAssertions.Core.dll = packages\FluentAssertions.4.3.2\lib\net45\FluentAssertions.Core.dll
+		packages\FluentAssertions.4.3.2\lib\net45\FluentAssertions.Core.pdb = packages\FluentAssertions.4.3.2\lib\net45\FluentAssertions.Core.pdb
+		packages\FluentAssertions.4.3.2\lib\net45\FluentAssertions.Core.xml = packages\FluentAssertions.4.3.2\lib\net45\FluentAssertions.Core.xml
+		packages\FluentAssertions.4.3.2\lib\net45\FluentAssertions.dll = packages\FluentAssertions.4.3.2\lib\net45\FluentAssertions.dll
+		packages\FluentAssertions.4.3.2\lib\net45\FluentAssertions.pdb = packages\FluentAssertions.4.3.2\lib\net45\FluentAssertions.pdb
+		packages\FluentAssertions.4.3.2\lib\net45\FluentAssertions.xml = packages\FluentAssertions.4.3.2\lib\net45\FluentAssertions.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "portable-monotouch+monoandroid+xamarin.ios", "portable-monotouch+monoandroid+xamarin.ios", "{5E6F30BB-1134-4A09-9900-BCC3F61109B5}"
+	ProjectSection(SolutionItems) = preProject
+		packages\FluentAssertions.4.3.2\lib\portable-monotouch+monoandroid+xamarin.ios\FluentAssertions.Core.dll = packages\FluentAssertions.4.3.2\lib\portable-monotouch+monoandroid+xamarin.ios\FluentAssertions.Core.dll
+		packages\FluentAssertions.4.3.2\lib\portable-monotouch+monoandroid+xamarin.ios\FluentAssertions.Core.pdb = packages\FluentAssertions.4.3.2\lib\portable-monotouch+monoandroid+xamarin.ios\FluentAssertions.Core.pdb
+		packages\FluentAssertions.4.3.2\lib\portable-monotouch+monoandroid+xamarin.ios\FluentAssertions.Core.xml = packages\FluentAssertions.4.3.2\lib\portable-monotouch+monoandroid+xamarin.ios\FluentAssertions.Core.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "portable-net40+sl5+win8+wp8+wpa81", "portable-net40+sl5+win8+wp8+wpa81", "{C07BFEDF-D0AF-445D-AC6D-D2A25753F775}"
+	ProjectSection(SolutionItems) = preProject
+		packages\FluentAssertions.4.3.2\lib\portable-net40+sl5+win8+wp8+wpa81\FluentAssertions.Core.dll = packages\FluentAssertions.4.3.2\lib\portable-net40+sl5+win8+wp8+wpa81\FluentAssertions.Core.dll
+		packages\FluentAssertions.4.3.2\lib\portable-net40+sl5+win8+wp8+wpa81\FluentAssertions.Core.pdb = packages\FluentAssertions.4.3.2\lib\portable-net40+sl5+win8+wp8+wpa81\FluentAssertions.Core.pdb
+		packages\FluentAssertions.4.3.2\lib\portable-net40+sl5+win8+wp8+wpa81\FluentAssertions.Core.xml = packages\FluentAssertions.4.3.2\lib\portable-net40+sl5+win8+wp8+wpa81\FluentAssertions.Core.xml
+		packages\FluentAssertions.4.3.2\lib\portable-net40+sl5+win8+wp8+wpa81\FluentAssertions.dll = packages\FluentAssertions.4.3.2\lib\portable-net40+sl5+win8+wp8+wpa81\FluentAssertions.dll
+		packages\FluentAssertions.4.3.2\lib\portable-net40+sl5+win8+wp8+wpa81\FluentAssertions.pdb = packages\FluentAssertions.4.3.2\lib\portable-net40+sl5+win8+wp8+wpa81\FluentAssertions.pdb
+		packages\FluentAssertions.4.3.2\lib\portable-net40+sl5+win8+wp8+wpa81\FluentAssertions.XML = packages\FluentAssertions.4.3.2\lib\portable-net40+sl5+win8+wp8+wpa81\FluentAssertions.XML
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "portable-win81+wpa81", "portable-win81+wpa81", "{3AFF8738-AFCB-48BC-9271-7A8DBBD536F0}"
+	ProjectSection(SolutionItems) = preProject
+		packages\FluentAssertions.4.3.2\lib\portable-win81+wpa81\FluentAssertions.Core.dll = packages\FluentAssertions.4.3.2\lib\portable-win81+wpa81\FluentAssertions.Core.dll
+		packages\FluentAssertions.4.3.2\lib\portable-win81+wpa81\FluentAssertions.Core.pdb = packages\FluentAssertions.4.3.2\lib\portable-win81+wpa81\FluentAssertions.Core.pdb
+		packages\FluentAssertions.4.3.2\lib\portable-win81+wpa81\FluentAssertions.Core.xml = packages\FluentAssertions.4.3.2\lib\portable-win81+wpa81\FluentAssertions.Core.xml
+		packages\FluentAssertions.4.3.2\lib\portable-win81+wpa81\FluentAssertions.dll = packages\FluentAssertions.4.3.2\lib\portable-win81+wpa81\FluentAssertions.dll
+		packages\FluentAssertions.4.3.2\lib\portable-win81+wpa81\FluentAssertions.pdb = packages\FluentAssertions.4.3.2\lib\portable-win81+wpa81\FluentAssertions.pdb
+		packages\FluentAssertions.4.3.2\lib\portable-win81+wpa81\FluentAssertions.pri = packages\FluentAssertions.4.3.2\lib\portable-win81+wpa81\FluentAssertions.pri
+		packages\FluentAssertions.4.3.2\lib\portable-win81+wpa81\FluentAssertions.xml = packages\FluentAssertions.4.3.2\lib\portable-win81+wpa81\FluentAssertions.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sl5", "sl5", "{4707B5EF-2BB5-421C-A776-9264D7035D9E}"
+	ProjectSection(SolutionItems) = preProject
+		packages\FluentAssertions.4.3.2\lib\sl5\FluentAssertions.Core.dll = packages\FluentAssertions.4.3.2\lib\sl5\FluentAssertions.Core.dll
+		packages\FluentAssertions.4.3.2\lib\sl5\FluentAssertions.Core.pdb = packages\FluentAssertions.4.3.2\lib\sl5\FluentAssertions.Core.pdb
+		packages\FluentAssertions.4.3.2\lib\sl5\FluentAssertions.Core.xml = packages\FluentAssertions.4.3.2\lib\sl5\FluentAssertions.Core.xml
+		packages\FluentAssertions.4.3.2\lib\sl5\FluentAssertions.dll = packages\FluentAssertions.4.3.2\lib\sl5\FluentAssertions.dll
+		packages\FluentAssertions.4.3.2\lib\sl5\FluentAssertions.pdb = packages\FluentAssertions.4.3.2\lib\sl5\FluentAssertions.pdb
+		packages\FluentAssertions.4.3.2\lib\sl5\FluentAssertions.xml = packages\FluentAssertions.4.3.2\lib\sl5\FluentAssertions.xml
+		packages\FluentAssertions.4.3.2\lib\sl5\Microsoft.CSharp.dll = packages\FluentAssertions.4.3.2\lib\sl5\Microsoft.CSharp.dll
+		packages\FluentAssertions.4.3.2\lib\sl5\Microsoft.CSharp.xml = packages\FluentAssertions.4.3.2\lib\sl5\Microsoft.CSharp.xml
+		packages\FluentAssertions.4.3.2\lib\sl5\Microsoft.VisualStudio.QualityTools.UnitTesting.Silverlight.dll = packages\FluentAssertions.4.3.2\lib\sl5\Microsoft.VisualStudio.QualityTools.UnitTesting.Silverlight.dll
+		packages\FluentAssertions.4.3.2\lib\sl5\Microsoft.VisualStudio.QualityTools.UnitTesting.Silverlight.xml = packages\FluentAssertions.4.3.2\lib\sl5\Microsoft.VisualStudio.QualityTools.UnitTesting.Silverlight.xml
+		packages\FluentAssertions.4.3.2\lib\sl5\System.Xml.Linq.dll = packages\FluentAssertions.4.3.2\lib\sl5\System.Xml.Linq.dll
+		packages\FluentAssertions.4.3.2\lib\sl5\System.Xml.Linq.xml = packages\FluentAssertions.4.3.2\lib\sl5\System.Xml.Linq.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "win81", "win81", "{144D0B82-A46A-443C-8505-F1F6201F9505}"
+	ProjectSection(SolutionItems) = preProject
+		packages\FluentAssertions.4.3.2\lib\win81\FluentAssertions.Core.dll = packages\FluentAssertions.4.3.2\lib\win81\FluentAssertions.Core.dll
+		packages\FluentAssertions.4.3.2\lib\win81\FluentAssertions.Core.pdb = packages\FluentAssertions.4.3.2\lib\win81\FluentAssertions.Core.pdb
+		packages\FluentAssertions.4.3.2\lib\win81\FluentAssertions.Core.xml = packages\FluentAssertions.4.3.2\lib\win81\FluentAssertions.Core.xml
+		packages\FluentAssertions.4.3.2\lib\win81\FluentAssertions.dll = packages\FluentAssertions.4.3.2\lib\win81\FluentAssertions.dll
+		packages\FluentAssertions.4.3.2\lib\win81\FluentAssertions.pdb = packages\FluentAssertions.4.3.2\lib\win81\FluentAssertions.pdb
+		packages\FluentAssertions.4.3.2\lib\win81\FluentAssertions.pri = packages\FluentAssertions.4.3.2\lib\win81\FluentAssertions.pri
+		packages\FluentAssertions.4.3.2\lib\win81\FluentAssertions.xml = packages\FluentAssertions.4.3.2\lib\win81\FluentAssertions.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "wp8", "wp8", "{6D2003F0-D410-45FD-B838-EAE05DEE2425}"
+	ProjectSection(SolutionItems) = preProject
+		packages\FluentAssertions.4.3.2\lib\wp8\FluentAssertions.Core.dll = packages\FluentAssertions.4.3.2\lib\wp8\FluentAssertions.Core.dll
+		packages\FluentAssertions.4.3.2\lib\wp8\FluentAssertions.Core.pdb = packages\FluentAssertions.4.3.2\lib\wp8\FluentAssertions.Core.pdb
+		packages\FluentAssertions.4.3.2\lib\wp8\FluentAssertions.Core.xml = packages\FluentAssertions.4.3.2\lib\wp8\FluentAssertions.Core.xml
+		packages\FluentAssertions.4.3.2\lib\wp8\FluentAssertions.dll = packages\FluentAssertions.4.3.2\lib\wp8\FluentAssertions.dll
+		packages\FluentAssertions.4.3.2\lib\wp8\FluentAssertions.pdb = packages\FluentAssertions.4.3.2\lib\wp8\FluentAssertions.pdb
+		packages\FluentAssertions.4.3.2\lib\wp8\FluentAssertions.xml = packages\FluentAssertions.4.3.2\lib\wp8\FluentAssertions.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "wpa81", "wpa81", "{5CDC1077-518C-4CD1-BB94-F272F1BFA2F1}"
+	ProjectSection(SolutionItems) = preProject
+		packages\FluentAssertions.4.3.2\lib\wpa81\FluentAssertions.Core.dll = packages\FluentAssertions.4.3.2\lib\wpa81\FluentAssertions.Core.dll
+		packages\FluentAssertions.4.3.2\lib\wpa81\FluentAssertions.Core.pdb = packages\FluentAssertions.4.3.2\lib\wpa81\FluentAssertions.Core.pdb
+		packages\FluentAssertions.4.3.2\lib\wpa81\FluentAssertions.Core.xml = packages\FluentAssertions.4.3.2\lib\wpa81\FluentAssertions.Core.xml
+		packages\FluentAssertions.4.3.2\lib\wpa81\FluentAssertions.dll = packages\FluentAssertions.4.3.2\lib\wpa81\FluentAssertions.dll
+		packages\FluentAssertions.4.3.2\lib\wpa81\FluentAssertions.pdb = packages\FluentAssertions.4.3.2\lib\wpa81\FluentAssertions.pdb
+		packages\FluentAssertions.4.3.2\lib\wpa81\FluentAssertions.pri = packages\FluentAssertions.4.3.2\lib\wpa81\FluentAssertions.pri
+		packages\FluentAssertions.4.3.2\lib\wpa81\FluentAssertions.xml = packages\FluentAssertions.4.3.2\lib\wpa81\FluentAssertions.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "xamarin.ios", "xamarin.ios", "{82FAAB40-9D3D-4940-944C-F7D7CFDB3A56}"
+	ProjectSection(SolutionItems) = preProject
+		packages\FluentAssertions.4.3.2\lib\xamarin.ios\FluentAssertions.Core.dll = packages\FluentAssertions.4.3.2\lib\xamarin.ios\FluentAssertions.Core.dll
+		packages\FluentAssertions.4.3.2\lib\xamarin.ios\FluentAssertions.Core.pdb = packages\FluentAssertions.4.3.2\lib\xamarin.ios\FluentAssertions.Core.pdb
+		packages\FluentAssertions.4.3.2\lib\xamarin.ios\FluentAssertions.Core.xml = packages\FluentAssertions.4.3.2\lib\xamarin.ios\FluentAssertions.Core.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "de", "de", "{83FF21A6-4C1C-41D3-9A14-8C947A688EF0}"
+	ProjectSection(SolutionItems) = preProject
+		packages\FluentAssertions.4.3.2\lib\sl5\de\Microsoft.CSharp.resources.dll = packages\FluentAssertions.4.3.2\lib\sl5\de\Microsoft.CSharp.resources.dll
+		packages\FluentAssertions.4.3.2\lib\sl5\de\System.Xml.Linq.resources.dll = packages\FluentAssertions.4.3.2\lib\sl5\de\System.Xml.Linq.resources.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "es", "es", "{A86382A6-3AA4-4711-8D4F-6790CBCA7F91}"
+	ProjectSection(SolutionItems) = preProject
+		packages\FluentAssertions.4.3.2\lib\sl5\es\Microsoft.CSharp.resources.dll = packages\FluentAssertions.4.3.2\lib\sl5\es\Microsoft.CSharp.resources.dll
+		packages\FluentAssertions.4.3.2\lib\sl5\es\System.Xml.Linq.resources.dll = packages\FluentAssertions.4.3.2\lib\sl5\es\System.Xml.Linq.resources.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fr", "fr", "{4A4D1A5D-8B0D-45F4-B31E-E8B47026BAB0}"
+	ProjectSection(SolutionItems) = preProject
+		packages\FluentAssertions.4.3.2\lib\sl5\fr\Microsoft.CSharp.resources.dll = packages\FluentAssertions.4.3.2\lib\sl5\fr\Microsoft.CSharp.resources.dll
+		packages\FluentAssertions.4.3.2\lib\sl5\fr\System.Xml.Linq.resources.dll = packages\FluentAssertions.4.3.2\lib\sl5\fr\System.Xml.Linq.resources.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "it", "it", "{6C73C58E-E67A-46CF-8270-38474BCA44ED}"
+	ProjectSection(SolutionItems) = preProject
+		packages\FluentAssertions.4.3.2\lib\sl5\it\Microsoft.CSharp.resources.dll = packages\FluentAssertions.4.3.2\lib\sl5\it\Microsoft.CSharp.resources.dll
+		packages\FluentAssertions.4.3.2\lib\sl5\it\System.Xml.Linq.resources.dll = packages\FluentAssertions.4.3.2\lib\sl5\it\System.Xml.Linq.resources.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ja", "ja", "{EAA5F3A1-CBCC-4A81-AAF0-AC26884E0B7D}"
+	ProjectSection(SolutionItems) = preProject
+		packages\FluentAssertions.4.3.2\lib\sl5\ja\Microsoft.CSharp.resources.dll = packages\FluentAssertions.4.3.2\lib\sl5\ja\Microsoft.CSharp.resources.dll
+		packages\FluentAssertions.4.3.2\lib\sl5\ja\System.Xml.Linq.resources.dll = packages\FluentAssertions.4.3.2\lib\sl5\ja\System.Xml.Linq.resources.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ko", "ko", "{37AA7FDA-C31C-4E2F-AD62-86424F0ABB5C}"
+	ProjectSection(SolutionItems) = preProject
+		packages\FluentAssertions.4.3.2\lib\sl5\ko\Microsoft.CSharp.resources.dll = packages\FluentAssertions.4.3.2\lib\sl5\ko\Microsoft.CSharp.resources.dll
+		packages\FluentAssertions.4.3.2\lib\sl5\ko\System.Xml.Linq.resources.dll = packages\FluentAssertions.4.3.2\lib\sl5\ko\System.Xml.Linq.resources.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ru", "ru", "{96F8DACC-1EA9-4F36-8997-4CA4C4BA7067}"
+	ProjectSection(SolutionItems) = preProject
+		packages\FluentAssertions.4.3.2\lib\sl5\ru\Microsoft.CSharp.resources.dll = packages\FluentAssertions.4.3.2\lib\sl5\ru\Microsoft.CSharp.resources.dll
+		packages\FluentAssertions.4.3.2\lib\sl5\ru\System.Xml.Linq.resources.dll = packages\FluentAssertions.4.3.2\lib\sl5\ru\System.Xml.Linq.resources.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "zh-Hans", "zh-Hans", "{7EED120D-4B5F-4FE6-94BF-5294657DA17E}"
+	ProjectSection(SolutionItems) = preProject
+		packages\FluentAssertions.4.3.2\lib\sl5\zh-Hans\Microsoft.CSharp.resources.dll = packages\FluentAssertions.4.3.2\lib\sl5\zh-Hans\Microsoft.CSharp.resources.dll
+		packages\FluentAssertions.4.3.2\lib\sl5\zh-Hans\System.Xml.Linq.resources.dll = packages\FluentAssertions.4.3.2\lib\sl5\zh-Hans\System.Xml.Linq.resources.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "zh-Hant", "zh-Hant", "{B82B8D9D-9CF9-4210-BDDE-8C9D21232A3A}"
+	ProjectSection(SolutionItems) = preProject
+		packages\FluentAssertions.4.3.2\lib\sl5\zh-Hant\Microsoft.CSharp.resources.dll = packages\FluentAssertions.4.3.2\lib\sl5\zh-Hant\Microsoft.CSharp.resources.dll
+		packages\FluentAssertions.4.3.2\lib\sl5\zh-Hant\System.Xml.Linq.resources.dll = packages\FluentAssertions.4.3.2\lib\sl5\zh-Hant\System.Xml.Linq.resources.dll
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -307,28 +329,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{7E92D79D-7367-456E-B4BE-13CAFF86C05F} = {AA6FF0F8-ACFC-4D03-9B7D-5CC3A4BBBACB}
-		{BF061237-4874-4C73-A291-D6EA0FE9307E} = {7E92D79D-7367-456E-B4BE-13CAFF86C05F}
-		{662911E8-9A63-463C-9ED4-9FA4C7359EB9} = {BF061237-4874-4C73-A291-D6EA0FE9307E}
-		{C977FBD6-D0D4-4AC2-BAD6-B81EB5B5C957} = {BF061237-4874-4C73-A291-D6EA0FE9307E}
-		{C19CB244-8F7C-4448-8F45-1E0FDE84173E} = {BF061237-4874-4C73-A291-D6EA0FE9307E}
-		{E98AB215-E2C4-421B-9911-A64CA240A1B6} = {BF061237-4874-4C73-A291-D6EA0FE9307E}
-		{12405F55-12C7-45FA-90E2-53F62CC56BD6} = {BF061237-4874-4C73-A291-D6EA0FE9307E}
-		{A73B2D78-488E-4261-AC7D-470A9F3F689A} = {BF061237-4874-4C73-A291-D6EA0FE9307E}
-		{F4C56392-E23D-41E1-95DA-FE2ECDA0D18E} = {BF061237-4874-4C73-A291-D6EA0FE9307E}
-		{F8B6FD0D-DE83-4822-B715-D64733B62675} = {BF061237-4874-4C73-A291-D6EA0FE9307E}
-		{6827E60F-8BDE-4E7C-9ECC-F94F957BD7BB} = {BF061237-4874-4C73-A291-D6EA0FE9307E}
-		{8D238BDA-9BD4-4957-B572-EFC29F9DD28E} = {BF061237-4874-4C73-A291-D6EA0FE9307E}
-		{D2128B7C-933F-4DF4-A046-D54AF9E8217A} = {BF061237-4874-4C73-A291-D6EA0FE9307E}
-		{65777287-C3A9-43E5-9606-49C95B2A0F4A} = {8D238BDA-9BD4-4957-B572-EFC29F9DD28E}
-		{41E6D92E-503B-47B1-A33A-AEE90A8C46F4} = {8D238BDA-9BD4-4957-B572-EFC29F9DD28E}
-		{EA259966-268B-491B-96B6-33F75874099B} = {8D238BDA-9BD4-4957-B572-EFC29F9DD28E}
-		{6F86C6F1-1EBF-42C6-8EEF-66822F615CFD} = {8D238BDA-9BD4-4957-B572-EFC29F9DD28E}
-		{C8565E8B-042B-4093-A1A4-724086C66A21} = {8D238BDA-9BD4-4957-B572-EFC29F9DD28E}
-		{ECAE168D-D40C-4914-B20B-D3F892E67FF1} = {8D238BDA-9BD4-4957-B572-EFC29F9DD28E}
-		{21284510-DC2E-49C8-B04F-366524C4F0F2} = {8D238BDA-9BD4-4957-B572-EFC29F9DD28E}
-		{B54352B7-A80D-437D-95D9-1DE50E27AB7B} = {8D238BDA-9BD4-4957-B572-EFC29F9DD28E}
-		{8CA21288-5135-4911-B2E8-A2419E841DCF} = {8D238BDA-9BD4-4957-B572-EFC29F9DD28E}
 		{EC35AF92-2953-4FAC-827F-43EACCB56F02} = {AA6FF0F8-ACFC-4D03-9B7D-5CC3A4BBBACB}
 		{9446F607-4B00-4ECC-B047-C31549E3AA51} = {EC35AF92-2953-4FAC-827F-43EACCB56F02}
 		{B5ED0F60-CDF7-4E1B-B86F-AD442D991187} = {9446F607-4B00-4ECC-B047-C31549E3AA51}
@@ -344,5 +344,29 @@ Global
 		{7B9C47E7-42B2-405D-B0AB-6A5E73B111DA} = {9446F607-4B00-4ECC-B047-C31549E3AA51}
 		{26ABFC40-6524-4254-A9C0-053C4F3D8901} = {9446F607-4B00-4ECC-B047-C31549E3AA51}
 		{B7F5E692-100D-437A-9C23-EA3948B36400} = {9446F607-4B00-4ECC-B047-C31549E3AA51}
+		{D0CDAFAD-D3D4-46D8-B511-5B00C1055208} = {AA6FF0F8-ACFC-4D03-9B7D-5CC3A4BBBACB}
+		{80F6E91D-426A-4726-9D6D-DAFA0D94AAC0} = {D0CDAFAD-D3D4-46D8-B511-5B00C1055208}
+		{A4C4C179-0808-41EF-B34F-06421790D014} = {80F6E91D-426A-4726-9D6D-DAFA0D94AAC0}
+		{C1354BA2-AC6E-467F-A8AF-65D2E0CB1555} = {80F6E91D-426A-4726-9D6D-DAFA0D94AAC0}
+		{049C6F00-E5D3-470D-8FB3-480B696FED53} = {80F6E91D-426A-4726-9D6D-DAFA0D94AAC0}
+		{B64DE5D3-1453-4953-BF55-3A1435C3F20E} = {80F6E91D-426A-4726-9D6D-DAFA0D94AAC0}
+		{E91AD011-CD74-4C12-B3CB-38DE8C69229E} = {80F6E91D-426A-4726-9D6D-DAFA0D94AAC0}
+		{5E6F30BB-1134-4A09-9900-BCC3F61109B5} = {80F6E91D-426A-4726-9D6D-DAFA0D94AAC0}
+		{C07BFEDF-D0AF-445D-AC6D-D2A25753F775} = {80F6E91D-426A-4726-9D6D-DAFA0D94AAC0}
+		{3AFF8738-AFCB-48BC-9271-7A8DBBD536F0} = {80F6E91D-426A-4726-9D6D-DAFA0D94AAC0}
+		{4707B5EF-2BB5-421C-A776-9264D7035D9E} = {80F6E91D-426A-4726-9D6D-DAFA0D94AAC0}
+		{144D0B82-A46A-443C-8505-F1F6201F9505} = {80F6E91D-426A-4726-9D6D-DAFA0D94AAC0}
+		{6D2003F0-D410-45FD-B838-EAE05DEE2425} = {80F6E91D-426A-4726-9D6D-DAFA0D94AAC0}
+		{5CDC1077-518C-4CD1-BB94-F272F1BFA2F1} = {80F6E91D-426A-4726-9D6D-DAFA0D94AAC0}
+		{82FAAB40-9D3D-4940-944C-F7D7CFDB3A56} = {80F6E91D-426A-4726-9D6D-DAFA0D94AAC0}
+		{83FF21A6-4C1C-41D3-9A14-8C947A688EF0} = {4707B5EF-2BB5-421C-A776-9264D7035D9E}
+		{A86382A6-3AA4-4711-8D4F-6790CBCA7F91} = {4707B5EF-2BB5-421C-A776-9264D7035D9E}
+		{4A4D1A5D-8B0D-45F4-B31E-E8B47026BAB0} = {4707B5EF-2BB5-421C-A776-9264D7035D9E}
+		{6C73C58E-E67A-46CF-8270-38474BCA44ED} = {4707B5EF-2BB5-421C-A776-9264D7035D9E}
+		{EAA5F3A1-CBCC-4A81-AAF0-AC26884E0B7D} = {4707B5EF-2BB5-421C-A776-9264D7035D9E}
+		{37AA7FDA-C31C-4E2F-AD62-86424F0ABB5C} = {4707B5EF-2BB5-421C-A776-9264D7035D9E}
+		{96F8DACC-1EA9-4F36-8997-4CA4C4BA7067} = {4707B5EF-2BB5-421C-A776-9264D7035D9E}
+		{7EED120D-4B5F-4FE6-94BF-5294657DA17E} = {4707B5EF-2BB5-421C-A776-9264D7035D9E}
+		{B82B8D9D-9CF9-4210-BDDE-8C9D21232A3A} = {4707B5EF-2BB5-421C-A776-9264D7035D9E}
 	EndGlobalSection
 EndGlobal
