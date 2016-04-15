@@ -1,0 +1,7 @@
+C:\Users\Stewart Rogers\Source\Repos\ApplicationSecureString\System.Security.ApplicationSecureString\bin\Debug\System.Security.ApplicationSecureString.XML
+C:\Users\Stewart Rogers\Source\Repos\ApplicationSecureString\System.Security.ApplicationSecureString\bin\Debug\System.Security.ApplicationSecureString.dll
+C:\Users\Stewart Rogers\Source\Repos\ApplicationSecureString\System.Security.ApplicationSecureString\bin\Debug\System.Security.ApplicationSecureString.pdb
+C:\Users\Stewart Rogers\Source\Repos\ApplicationSecureString\System.Security.ApplicationSecureString\bin\Debug\System.Security.ApplicationSecureString.dll.CodeAnalysisLog.xml
+C:\Users\Stewart Rogers\Source\Repos\ApplicationSecureString\System.Security.ApplicationSecureString\bin\Debug\System.Security.ApplicationSecureString.dll.lastcodeanalysissucceeded
+C:\Users\Stewart Rogers\Source\Repos\ApplicationSecureString\System.Security.ApplicationSecureString\obj\Debug\System.Security.ApplicationSecureString.dll
+C:\Users\Stewart Rogers\Source\Repos\ApplicationSecureString\System.Security.ApplicationSecureString\obj\Debug\System.Security.ApplicationSecureString.pdb

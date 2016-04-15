@@ -1,0 +1,8 @@
+C:\Users\Stewart Rogers\Source\Repos\ApplicationSecureString\System.Security.ApplicationSecureString.Build\bin\Debug\System.Security.ApplicationSecureString.Build.dll
+C:\Users\Stewart Rogers\Source\Repos\ApplicationSecureString\System.Security.ApplicationSecureString.Build\bin\Debug\System.Security.ApplicationSecureString.Build.pdb
+C:\Users\Stewart Rogers\Source\Repos\ApplicationSecureString\System.Security.ApplicationSecureString.Build\bin\Debug\FakeLib.dll
+C:\Users\Stewart Rogers\Source\Repos\ApplicationSecureString\System.Security.ApplicationSecureString.Build\bin\Debug\FSharp.Core.dll
+C:\Users\Stewart Rogers\Source\Repos\ApplicationSecureString\System.Security.ApplicationSecureString.Build\bin\Debug\FSharp.Core.xml
+C:\Users\Stewart Rogers\Source\Repos\ApplicationSecureString\System.Security.ApplicationSecureString.Build\obj\Debug\System.Security.ApplicationSecureString.Build.csprojResolveAssemblyReference.cache
+C:\Users\Stewart Rogers\Source\Repos\ApplicationSecureString\System.Security.ApplicationSecureString.Build\obj\Debug\System.Security.ApplicationSecureString.Build.dll
+C:\Users\Stewart Rogers\Source\Repos\ApplicationSecureString\System.Security.ApplicationSecureString.Build\obj\Debug\System.Security.ApplicationSecureString.Build.pdb
