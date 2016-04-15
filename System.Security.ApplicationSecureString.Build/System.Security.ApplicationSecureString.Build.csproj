@@ -7,7 +7,7 @@
     <ProjectGuid>{2E0FB6B6-D9AD-4565-8CA8-9D5C36A0E628}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SySystem.Securi</RootNamespace>
+    <RootNamespace>System.Securi</RootNamespace>
     <AssemblyName>System.Security.ApplicationSecureString.Build</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -50,7 +50,6 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
